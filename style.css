@@ -1,0 +1,29 @@
+
+span {
+    color: aqua;
+}
+.exercise p {
+    color: blueviolet;
+}
+
+.spancsscheck{
+    color:red;
+    font-weight: bolder;
+}
+h1,h2,h3,h4,h5,h6 {
+    color:darkseagreen;
+}
+.exercise {
+    border: 1px solid blueviolet;
+    padding:10px;
+    margin:20px;
+    
+}
+img {
+    width:150px;
+    height: 250px;
+}
+
+th, td {
+    border:1px solid black;
+}

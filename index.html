@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلام دنیا</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>this is header</header>
+
+    <main>
+        <div class="exercise">
+            <p>exercise 1-1 to 1-3:</p>
+            <div><p>oh God!this is div in main</p></div>
+            <p>this is main</p>
+            <p class="spancsscheck">Lorem ipsum <span>Lorem, ipsum.</span> dolor sit amet.</p>
+            <br>
+            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, voluptates?</span>
+            <hr>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h1>Lorem.</h1>
+            <h2>Lorem, ipsum.</h2>
+            <h3>Lorem, ipsum dolor.</h3>
+            <h4>Lorem ipsum dolor sit.</h4>
+            <h5>Lorem ipsum dolor sit amet.</h5>
+            <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+        </div>
+        <div class="exercise">
+            <p>excercise 1-4: lists</p>
+            <p>unordered list</p>
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>js</li>
+            </ul>
+            <p>ordered list start=5 and type=1</p>
+            <ol start="5" type="1">
+                <li>html</li>
+                <li>css</li>
+                <li>js</li>
+            </ol>
+            <p>description list</p>
+            <dl>
+                <dt>book</dt>
+                <dd>کهکشان نیستی</dd>
+                <dd>کلید طلایی ارتباط</dd>
+                <br>
+                <dt>book2</dt>
+                <dd>بیداری</dd>
+                <dd>کیمیای محبت</dd>
+                <dd>مردان مریخی</dd>
+            </dl>
+        </div>
+        <div class="exercise">
+            <p>exercise 1-5: links</p>
+            <p>a link to google with targert=_blank(opens in new page)</p>
+            <a href="http:/google.com" target="_blank"></a>
+            <p>a link to page in some folder of project with title=page2</p>
+            <a href="test/index1.html" title="page2">page 2</a>
+            <p>a link to somewhere in this page with id=12</p>
+            <a href="#12">go to 12</a>
+            <h1>1Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>2Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>3Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>4Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>5Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>6Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>7Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>8Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>9Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>10Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1>11Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+            <h1 id="12">12Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+
+        </div>
+        <div class="exercise">
+            <p>exercise 1-6: images</p>
+            <p>image with src and alt=image1 and title=tabiat1</p>
+            <img src="images/1.jpg" alt="image1" title="tabiat1">
+            <p>image link using in logos</p>
+            <a href="https://google.com" target="_blank"><img src="images/2.jpg" alt="image2" title="tabiat2"></a>
+        </div>
+        
+        <div class="exercise">
+            <p>exercise 1-7: table for table</p>
+            <p>table with th tr td colsapn and rowspan</p>
+            <table>
+                <caption>this is my table</caption>
+                <tr>
+                    <th colspan="5">one</th>
+                    <th>two</th>
+                    <th>three</th>
+                </tr>
+                <tr>
+                    <td rowspan="4">four</td>
+                    <td>five</td>
+                    <td>six</td>
+                </tr>
+
+                <tr>
+                    <td>seven</td>
+                    <td>eight</td>
+                    <td>nine</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="exercise">
+            <p>exercise 1-8: table for website layout</p>
+            <p>table with thead tbody tfoot colgroup and col</p>
+            <table>
+                <caption>this is my website table</caption>
+                <colgroup>
+                    <col span="1" style="background-color: yellow;">
+                    <col span="2" style="background-color: aqua;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>one</th>
+                        <th>two</th>
+                        <th>three</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>four</td>
+                        <td>five</td>
+                        <td>six</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>seven</td>
+                        <td>eight</td>
+                        <td>nine</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="exercise">
+            <p>exercise 2-5:</p>
+            <div id="result"></div>
+            <label for="">enter num 1:</label><input type="text" id="num1">
+            <br>
+            <label for="">enter num 2:</label><input type="text" id="num2">
+            <br>
+            <input type="button" name="" id="button1" onclick="sum()" value="Sum">
+            <br>
+        </div>
+        <div class="exercise">
+            <p>exercise 1-9: forms</p>
+            <p>form type autocomplete action method novalidate target encrypt input type text and button type submit</p>
+            <form action="index1.html" method="post" autocomplete="off" novalidate  target="_blank" enctype="text/plain">
+                Name: <input type="text"><br>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+        <div class="exercise">
+            <p>exercise 1-10 & 1-11: forms</p>
+            <p>all types of an input with attributes</p>
+            <form action="index1.html" method="post" autocomplete="off" novalidate  target="_blank" enctype="text/plain">
+                <label for="">text:</label> <input type="text"><br>
+                <label for="">text with placeholder:</label> <input type="text" placeholder="placeholder"><br>
+                <label for="">text disabled:</label> <input type="text" disabled><br>
+                <label for="">text readonly:</label> <input type="text" readonly  value="readonly"><br>
+                <label for="">time:</label><input type="time"><br>
+                <label for="">url:</label><input type="url"><br>
+                <label for="">week:</label><input type="week"><br>
+                <label for="">tel:</label><input type="tel"><br>
+                <label for="">submit:</label><input type="submit" value="ok"><br>
+                <label for="">search:</label><input type="search"><br>
+                <label for="">range:</label><input type="range"><br>
+                <label for="">radio1:</label><input type="radio" name="test1" checked><br>
+                <label for="">radio2:</label><input type="radio" name="test2"><br>
+                <label for="">radio3:</label><input type="radio" name="test3"><br>
+                <label for="">password:</label><input type="password" required><br>
+                <label for="">number:</label><input type="number"><br>
+                <label for="">month:</label><input type="month"><br>
+                <label for="">hidden:</label><input type="hidden"><br>
+                <label for="">file:</label><input type="file"><br>
+                <label for="">email:</label><input type="email"><br>
+                <label for="">date:</label><input type="date"><br>
+                <label for="">color:</label><input type="color"><br>
+                <label for="">checkbox:</label><input type="checkbox"><br>
+                <label for="">button:</label><input type="button" value="button"><br>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+
+        <div class="exercise">
+            <p>exercise 1-12: progress and menu</p>
+            <label for="progress">my progress bar:</label>
+            <progress max="100" value="40"></progress><br>
+
+            <label for="select menu">my select menu:</label>
+            <select name="" id="">
+                <optgroup label="first group">
+                    <option value="">one </option>
+                    <option value="" disabled>two </option>
+                    <option value="">three </option>
+                </optgroup>
+
+                <optgroup label="second group">
+                    <option value="" selected>four </option>
+                    <option value="">five </option>
+                    <option value="">six </option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div class="exercise">
+            <p>exercise 1-13: text area and data list:</p>
+            <form action="">
+                <label for="textarea">textarea: </label> <br>
+                <textarea name="comment" id="" cols="30" rows="10" wrap="hard" placeholder="comment"></textarea><br>
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </form>
+            <br>
+            <form action="">
+                <label for="iput">datalist: </label>
+                <input list="mina" id="">
+
+                    <datalist id="mina">
+                        <option value="one"></option>
+                        <option value="two"></option>
+                        <option value="three"></option>
+                    </datalist>
+            </form>
+
+    </main>
+    
+    <!-- <footer>this is footer</footer> -->
+</body>
+</html>
