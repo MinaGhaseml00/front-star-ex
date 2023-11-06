@@ -37,3 +37,21 @@ th, td {
     font-size: 30px;
     border: 1px solid rgb(240, 64, 87);
 }
+.color1{
+    color:red;
+}
+.color2{
+    color: #1217fa;
+}
+.color3{
+    color: rgb(120,170,243);
+}
+.color4{
+    color: rgba(13,53,197, 0.4);
+}
+.color5{
+    color: hsl(120,100%,50%);
+}
+.color6{
+    color: hsla(120,100%,50%, 0.6);
+}
