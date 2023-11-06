@@ -55,3 +55,46 @@ th, td {
 .color6{
     color: hsla(120,100%,50%, 0.6);
 }
+.test1{
+    width: 300px;
+    height: 300px;
+    background-color: chocolate;
+}
+.test2{
+    width: 300px;
+    height: 300px;
+    background-image:url("images/2.jpg");
+
+}
+.test3{
+    width: 300px;
+    height: 300px;
+    background-image:url("images/2.jpg");
+    background-size: cover;
+}
+.test4{
+    background-color:chocolate ;
+    width: 500px;
+    height: 500px;
+    background-image:url("images/3.jfif");
+}
+.test5{
+    background-color:chocolate ;
+    width: 500px;
+    height: 500px;
+    background-image:url("images/3.jfif");
+    background-repeat: no-repeat;
+}
+.test6{
+    background-color:chocolate ;
+    width: 500px;
+    height: 500px;
+    background-image:url("images/3.jfif");
+    background-repeat: repeat-x;
+}
+.test7{    
+    background-color:chocolate ;
+    width: 500px;
+    height: 500px;
+    background-image:url("images/3.jfif");
+    background-repeat: repeat-y;}
