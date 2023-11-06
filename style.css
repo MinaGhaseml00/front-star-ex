@@ -27,3 +27,13 @@ img {
 th, td {
     border:1px solid black;
 }
+#pid{
+    color: rgb(11, 235, 67);
+    font-size: 20px;
+
+}
+.pclass{
+    color: darkorange;
+    font-size: 30px;
+    border: 1px solid rgb(240, 64, 87);
+}
